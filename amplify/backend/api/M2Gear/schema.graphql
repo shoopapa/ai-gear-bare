@@ -1,0 +1,30 @@
+type Session @model @auth(
+  rules: [
+    {allow: owner}
+  ]
+) {
+  id: ID!
+  name: String
+  quaternionTimestamp: [Float!]!
+  quaternionW: [Float!]!
+  quaternionX: [Float!]!
+  quaternionY: [Float!]!
+  quaternionZ: [Float!]!
+  linearAccerationTimestamp: [Float!]!
+  linearAccerationX: [Float!]!
+  linearAccerationY: [Float!]!
+  linearAccerationZ: [Float!]!
+  sections: [SessionSection!] @hasMany(indexName: "bySession", fields: ["id"])
+}
+type SessionSection @model
+ @auth(
+  rules: [
+    {allow: owner}
+  ]
+) {
+  id: ID!
+  sessionID: ID! @index(name: "bySession", sortKeyFields: ["start"])
+  start: Float!
+  end: Float!
+}
+
