@@ -1,10 +1,10 @@
 {
-  "name": "m2gear",
-  "displayName": "m2gear",
+  "name": "ai-gear",
+  "displayName": "ai-gear",
   "expo": {
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.m2trainingcenter.m2gear"
+      "bundleIdentifier": "com.jdavis.aigear"
     }
   }
 }

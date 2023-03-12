@@ -41,7 +41,7 @@
   bridge.surfacePresenter = _bridgeAdapter.surfacePresenter;
 #endif
 
-  UIView *rootView = [self.reactDelegate createRootViewWithBridge:bridge moduleName:@"m2gear" initialProperties:nil];
+  UIView *rootView = [self.reactDelegate createRootViewWithBridge:bridge moduleName:@"ai-gear" initialProperties:nil];
 
   if (@available(iOS 13.0, *)) {
     rootView.backgroundColor = [UIColor systemBackgroundColor];

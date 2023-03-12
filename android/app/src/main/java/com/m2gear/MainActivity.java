@@ -1,4 +1,4 @@
-package com.m2gear;
+package com.ai-gear;
 import expo.modules.ReactActivityDelegateWrapper;
 
 import com.facebook.react.ReactActivity;
@@ -13,7 +13,7 @@ public class MainActivity extends ReactActivity {
    */
   @Override
   protected String getMainComponentName() {
-    return "m2gear";
+    return "ai-gear";
   }
 
   /**

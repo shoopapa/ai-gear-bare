@@ -1,4 +1,4 @@
-package com.m2gear.newarchitecture;
+package com.ai-gear.newarchitecture;
 
 import android.app.Application;
 import androidx.annotation.NonNull;
@@ -19,9 +19,9 @@ import com.facebook.react.fabric.CoreComponentsRegistry;
 import com.facebook.react.fabric.EmptyReactNativeConfig;
 import com.facebook.react.fabric.FabricJSIModuleProvider;
 import com.facebook.react.uimanager.ViewManagerRegistry;
-import com.m2gear.BuildConfig;
-import com.m2gear.newarchitecture.components.MainComponentsRegistry;
-import com.m2gear.newarchitecture.modules.MainApplicationTurboModuleManagerDelegate;
+import com.ai-gear.BuildConfig;
+import com.ai-gear.newarchitecture.components.MainComponentsRegistry;
+import com.ai-gear.newarchitecture.modules.MainApplicationTurboModuleManagerDelegate;
 import java.util.ArrayList;
 import java.util.List;
 

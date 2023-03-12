@@ -8,7 +8,6 @@ import { SafeAreaProvider } from "react-native-safe-area-context";
 
 import { SignInSignUpScreen } from "./signin";
 import { ClerkProvider, SignedIn, SignedOut } from "@clerk/clerk-expo";
-import { Text } from 'react-native';
 import { Home } from './home';
 
 const tokenCache: TokenCache = {

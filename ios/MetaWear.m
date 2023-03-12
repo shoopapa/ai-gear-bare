@@ -1,6 +1,6 @@
 //
 //  MetaWear.m
-//  m2Gear
+//  ai-gear
 //
 //  Created by Joe Davis on 2/12/22.
 //

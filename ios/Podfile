@@ -5,7 +5,7 @@ require_relative '../node_modules/@react-native-community/cli-platform-ios/nativ
 platform :ios, '15.4'
 install! 'cocoapods', :deterministic_uuids => false
 
-target 'm2gear' do
+target 'ai-gear' do
   use_expo_modules!
   post_integrate do |installer|
     begin
@@ -32,7 +32,7 @@ target 'm2gear' do
 
   pod 'RNVectorIcons', :path => '../node_modules/react-native-vector-icons'
 
-  target 'm2gearTests' do
+  target 'ai-gearTests' do
     inherit! :complete
     # Pods for testing
   end
