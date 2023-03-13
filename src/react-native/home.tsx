@@ -15,12 +15,8 @@ export const Home = () => {
       >sign out</Button>
       <Button
         onPress={async () => {
-          try {
-            const x = await trpc.hello.query()
-            console.log(x)
-          } catch (e) {
-            console.log(e)
-          }
+          const x = await trpc.hello.query()
+          console.log(x)
         }}
       >trpc</Button>
     </>
